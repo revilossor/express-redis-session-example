@@ -4,8 +4,16 @@
   "description": "testing how to use redis as a session store",
   "main": "index.js",
   "scripts": {
+    "dev": "npx nodemon app/main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "oliver.ross@hotmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "connect-redis": "^3.3.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "nodemon": "^1.12.1",
+    "redis": "^2.8.0"
+  }
 }
