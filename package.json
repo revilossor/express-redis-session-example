@@ -1,0 +1,11 @@
+{
+  "name": "express-session-redis",
+  "version": "1.0.0",
+  "description": "testing how to use redis as a session store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oliver.ross@hotmail.com",
+  "license": "ISC"
+}
